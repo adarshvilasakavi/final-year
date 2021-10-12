@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="../images/icon.png">
+  <title>NITPY Faculty portal</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+  <div class="main-head">
+    <img src="../images/icon.png" alt="NITPY" class="main-logo">
+    <p class="hod-name">Welcome XYZ <br><br> <a href="#">Reset Password</a><br> <br> <a href="#">Logout</a> </p>
+    <h1>NATIONAL INSTITUTE OF TECHNOLOGY PUDUCHERRY</h1>
+    <h2>Faculty Portal</h2>
+  </div>
+  <ul class="navbar">
+    <li class="nav-item configure-course">Configure</li>
+    <li class="nav-item">Add Attendance</li>
+    <li class="nav-item">Add Marks</li>
+  </ul>
+  <div class="configure-course-form">
+    <form method="post">
+      <label for="total-marks">Enter total Marks: </label>
+      <input type="number" name="total-marks"><br><br>
+      <label for="no-assessments">Enter the number of assessments: </label>
+      <input type="number" name="no-assessments"><br><br>
+      <button type="button" name="button" class="submit">Submit</button>
+    </form>
+    <form  class="assessments-class" action="index.html" method="post">
+      <label for="assessment1">Assessment1: </label>
+      <input type="text" name="assessment1"><br><br>
+      <label for="Assessment2">Assessment2: </label>
+      <input type="text" name="assessment2"><br><br>
+      <label for="assessment3">Assessment3: </label>
+      <input type="text" name="assessment3"><br><br>
+      <input type="submit" name="submit">
+    </form>
+  </div>
+
+  <footer class="footer">
+    <p>Copyrights &copy NIT Puducherry @ 2021</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
